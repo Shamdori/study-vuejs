@@ -54,3 +54,39 @@ index.html 파일의 \<head>에 아래와 같이 설정을 합니다.<br>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   </head>
   ```
+
+## 컴포넌트 생성하고 등록하기
+> 애플리케이션 구동에 필요한 컴포넌트들(header, input list, footer)을 생성하고 등록합니다.<br>
+컴포넌트의 경우 관례상 src/components 폴더에서 관리를 합니다.<br>
+큐모가 커서 기능별로 관리를 해야 할 경우는 src/components/기능/컴포넌트.vue와 같은 형식으로 관리하는게 좋습니다.
+
+### 컴포넌트 생성
+- src 폴더 하위에 components 폴더 생성합니다.
+- components 하위에 TodoHeader.vue, TodoInput.vue, TodoList.vue, TodoFooter.vue 파일을 생성합니다.
+
+### 컴포넌트 등록
+- 지역 컴포넌트 등록 형식
+  ```
+  components: {
+    '컴포넌트 이름': 컴포넌트 내용
+  }
+  ```
+- 컴포넌트 내용을 불러오기 위한 ES6 import 구문
+  ```
+  import 불러온 파일의 내용이 담길 객체 from '불러올 파일 위치';
+  ```
+- 컴포넌트 추가
+  ```
+  <template>
+    <div id="app">
+      <TodoHeader></TodoHeader>
+      <TodoInput></TodoInput>
+      <TodoList></TodoList>
+      <TodoFooter></TodoFooter>
+    </div>
+  </template>
+  ```
+
+## 컴포넌트 내용 구현하기
+
+## 기존 애플리케이션 구조의 문제점 해결하기더 나은 사용자 경험을 위한 기능 추가하기
