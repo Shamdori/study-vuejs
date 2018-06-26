@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "vue-todo",
   "version": "1.0.0",
-  "description": "vue test project",
+  "description": "A Vue.js project",
   "author": "Shamdori <sugiyam1@gmail.com>",
   "private": true,
   "scripts": {

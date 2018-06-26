@@ -1,21 +1,21 @@
-# test
+# 할 일 관리 앱 만들기
 
-> vue test project
+> 할 일 관리 앱은 적은 코드 양으로 뷰 애플리케이션을 제작할 때 반드시 알아야 할 컴포넌트 구조화와 컴포넌트 통신을 구현해 볼 수 있습니다.
+이 앱을 뷰로 직접 만들어 보면서 뷰에 대한 감각을 더 익혀 봅시다. <br>
+라고 책에 써 있습니다. 만들어 보면서 애플리케이션 구조화 방법 및 제작 방법을 배워 봅시다.
 
-## Build Setup
+## 앱 살펴보기
+할 일 관리 앱 demo: [https://vuejstodo-aa185.firebaseapp.com/](https://vuejstodo-aa185.firebaseapp.com/)<br>
+크롬 브라우저에서 개발자 도구 실행 후 Toggle device toolbar를 클릭 후 화면을 보면 모바일에 최적화 된 앱을 확인 할 수 있습니다.<br>
+![크롬 브라우저 개발자 도구 중 Toggle device toolbar를 실행한 모습 캡쳐 화면)](./src/assets/images/readme/todo_preview.png)
 
-``` bash
-# install dependencies
-npm install
+이 어플리케이션은 4개의 컴포넌트(header, input list, footer)로 쪼개 놓았습니다.<br>
+이는 재사용성을 높이고, 각 컴포넌트 간에 자유롭게 데이터를 전달 함으로 반응성 좋은 애플리케이션을 제작하기 위함입니다.
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 프로젝트 생성하고 구조 확인하기
 
-# build for production with minification
-npm run build
+## 컴포넌트 생성하고 등록하기
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## 컴포넌트 내용 구현하기
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 기존 애플리케이션 구조의 문제점 해결하기더 나은 사용자 경험을 위한 기능 추가하기
